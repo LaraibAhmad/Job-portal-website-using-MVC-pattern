@@ -1,0 +1,1 @@
+Developed a Job Portal website where users can search for jobs and post job listings. The application is built using the Model-View-Controller (MVC) architecture, following the principle of decoupling to achieve better maintainability, scalability, and code organization.
