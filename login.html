@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easily</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body style="background-color: white">
+    <div id="navbar"></div>
+    <!-- Login container -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="LoginForm">
+            <div class="input-group">
+                <label for="">Email</label>
+                <input type="email" id="email" placeholder="enter your email">
+                <small class="error" id="emailError"></small>
+            </div>
+            <div class="input-group">
+                <label for="">Pssword</label>
+                <input type="password" id="password" placeholder="enter your password">
+                <small class="error" id="passwordError"></small>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div> 
+    
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

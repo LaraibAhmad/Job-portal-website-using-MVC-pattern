@@ -1,0 +1,79 @@
+/* Job Listing */
+.card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #0f1635;
+    border: 1px solid #2a3b6a; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    border-color: #00f5c4;
+}
+
+.badge{
+    display: inline-block;
+    background-color: #132850;
+    color: #00f5c4;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.company{
+    color: #ffcc00;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.role{
+    color: #00f5c4;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location, .salary{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.skills{
+    margin-top: 10px;
+}
+
+.skill{
+    display: inline-block;
+    border: 1px solid #00f5c4;
+    color: #00f5c4;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 12px;
+    margin: 4px 4px 0 0;
+}
+
+.btn{
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #00f5c4;
+    color: #00f5c4;
+    text-decoration: none;
+    border-radius:6px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #00f5c4;
+    color: #0a0f2c;
+}

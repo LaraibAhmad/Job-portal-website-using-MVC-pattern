@@ -1,0 +1,35 @@
+ [
+    {   "id": 1,
+        "company": "Coding Ninjas",
+        "role": "SDE",
+        "location": "Gurgaon, remote",
+        "applyBy": "30 Aug 2026",
+        "openings": 5,
+        "applicants": 1,
+        "salary": "14-20 LPA",
+        "skills": ["React", "Nodejs", "JS", "SQL", "MongoDB", "Express", "AWS"]
+
+    },
+    {
+        "id": 2,
+        "company": "Go Digit",
+        "role": "Angular Developer",
+        "location": "Pune, On-site",
+        "applyBy": "30 Aug 2026",
+        "openings": 5,
+        "applicants": 1,
+        "salary": "6-10Lpa",
+        "skills": ["Angular", "JS", "SQL", "MongoDB", "Express", "AWS"]
+    },
+    {
+        "id": 3, 
+        "company": "Juspay",
+        "role": "SDE",
+        "location": "Bangalore",
+        "applyBy": "30 Aug 2026",
+        "openings": 5,
+        "applicants": 1,
+        "salary": "20-26 Lpa",
+        "skills": ["React", "Nodejs", "JS", "SQL", "MongoDB", "Express", "AWS"]
+    }
+]
